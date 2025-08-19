@@ -26,7 +26,6 @@ const Navbar = () => {
   const handleNavClick = (item) => {
     setIsMenuOpen(false);
     if (item.hash && location.pathname === '/') {
-      // If we're on the home page and there's a hash, scroll to the section
       setTimeout(() => {
         const element = document.querySelector(item.hash);
         if (element) {
@@ -69,14 +68,17 @@ const Navbar = () => {
                 {item.name}
               </Link>
             ))}
+
+            {/* Resume Button */}
             <a
-              href="https://jeetanil.com/Jeet_Anil_Resume.pdf"
+              href="/files/Jeet%20Anil%20Resume%202025.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="btn-primary"
             >
               Resume
             </a>
+
             <ThemeToggle />
           </div>
 
@@ -117,8 +119,10 @@ const Navbar = () => {
                   {item.name}
                 </Link>
               ))}
+
+              {/* Resume Button - Mobile */}
               <a
-                href="https://jeetanil.com/Jeet_Anil_Resume.pdf"
+                href="/files/Jeet%20Anil%20Resume%202025.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn-primary text-center mt-2"
