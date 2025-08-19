@@ -69,7 +69,7 @@ const Navbar = () => {
               </Link>
             ))}
 
-            {/* Resume Link */}
+            {/* Resume Link (Desktop) */}
             <a
               href="/resume.pdf"
               target="_blank"
@@ -82,7 +82,7 @@ const Navbar = () => {
             <ThemeToggle />
           </div>
 
-          {/* Mobile Menu Button */}
+          {/* Mobile menu button */}
           <div className="md:hidden flex items-center space-x-2">
             <ThemeToggle />
             <button
@@ -101,7 +101,7 @@ const Navbar = () => {
           </div>
         </div>
 
-        {/* Mobile Menu */}
+        {/* Mobile menu */}
         {isMenuOpen && (
           <div className="md:hidden mt-2 pb-4 border-t border-gray-200 dark:border-gray-700">
             <div className="flex flex-col space-y-2 pt-4">
