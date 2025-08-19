@@ -39,7 +39,7 @@ const Contact = () => {
           <div className="grid lg:grid-cols-2 gap-12">
             <div className="animate-slide-in-left">
               <h3 className="text-2xl font-bold font-poppins text-gray-900 dark:text-white mb-6">
-                Let's Connect
+                Let's Connect !
               </h3>
 
               <div className="space-y-6 mb-8">

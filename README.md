@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Jeet Anil - Portfolio Website
 
 A modern, responsive portfolio website built with React, Vite, and Tailwind CSS.
@@ -130,3 +131,12 @@ export const projects = [
 ## 📄 License
 
 This project is open source and available under the [MIT License](LICENSE).
+=======
+# resume-web-app-vercel
+
+This repository was initialized by Builder.io.
+
+## Getting Started
+
+Welcome to your new repository! You can now start building your project.
+>>>>>>> refs/remotes/origin/main
