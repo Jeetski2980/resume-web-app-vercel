@@ -69,9 +69,9 @@ const Navbar = () => {
               </Link>
             ))}
 
-            {/* Resume Button */}
+            {/* Resume Link */}
             <a
-              href="/files/Jeet%20Anil%20Resume%202025.pdf"
+              href="/resume.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="btn-primary"
@@ -82,7 +82,7 @@ const Navbar = () => {
             <ThemeToggle />
           </div>
 
-          {/* Mobile menu button */}
+          {/* Mobile Menu Button */}
           <div className="md:hidden flex items-center space-x-2">
             <ThemeToggle />
             <button
@@ -101,7 +101,7 @@ const Navbar = () => {
           </div>
         </div>
 
-        {/* Mobile menu */}
+        {/* Mobile Menu */}
         {isMenuOpen && (
           <div className="md:hidden mt-2 pb-4 border-t border-gray-200 dark:border-gray-700">
             <div className="flex flex-col space-y-2 pt-4">
@@ -120,9 +120,9 @@ const Navbar = () => {
                 </Link>
               ))}
 
-              {/* Resume Button - Mobile */}
+              {/* Resume Link (Mobile) */}
               <a
-                href="/files/Jeet%20Anil%20Resume%202025.pdf"
+                href="/resume.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn-primary text-center mt-2"
