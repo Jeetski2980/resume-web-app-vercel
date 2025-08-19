@@ -11,7 +11,7 @@ A modern, responsive portfolio website built with React, Vite, and Tailwind CSS.
 - **Project Showcase**: Individual project pages with detailed information
 - **Contact Form**: Functional contact form with mailto integration
 - **SEO Optimized**: Meta tags and semantic HTML structure
-
+d
 ## 🛠️ Tech Stack
 
 - **Frontend**: React 18, React Router DOM
